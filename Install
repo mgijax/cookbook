@@ -71,7 +71,6 @@ do
     fi
 done
 
-ln -s /include/ include
 chmod -f 750 *
 chgrp -f www *
 
