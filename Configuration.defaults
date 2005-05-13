@@ -32,4 +32,6 @@ MGI_AMA         ${WI_URL}searches/AMA.cgi?id=
 
 MGI_ACC         ${WI_URL}searches/accession_report.cgi?id=
 
+MGI_AMA_FORM    ${WI_URL}searches/AMA_form.shtml
+
 ELSEVIER        http://www.elsevier.com
