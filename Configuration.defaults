@@ -15,11 +15,14 @@ CONFIGPATH  /usr/local/mgi/live/lib/python/Configuration.pyc
 # Example-> /usr/local/bin/python
 PYTHONPATH  /usr/local/bin/python
 
+# Base URL to MGI
+BASE_URL http://www.informatics.jax.org/
+
 # full URL to the associated MGI Web Interface installation
-WI_URL          http://www.informatics.jax.org/
+WI_URL          ${BASE_URL}
 
 # full URL to this MGI Home installation
-MGIHOME_URL     http://www.informatics.jax.org/mgihome/
+MGIHOME_URL     ${BASE_URL}mgihome/
 
 ############################################################################
 # The following parameters are used in the gen_include script 
