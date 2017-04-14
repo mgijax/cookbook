@@ -30,6 +30,7 @@ def main ():
     stringToFile (config['MGI_SUPPORT'],    './include/mgi_support.html')
     stringToFile (config['MGI_AMA'],        './include/mgi_ama.html')
     stringToFile (config['MGI_AMA_FORM'],   './include/mgi_ama_form.html')
+    stringToFile (config['FEWI_URL'],       './include/fewi_url.html')
     stringToFile (config['MGI_ACC'],        './include/mgi_acc.html')
     stringToFile (config['ELSEVIER'],       './include/elsevier.html')
     return
