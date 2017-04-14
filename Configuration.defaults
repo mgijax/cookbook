@@ -19,7 +19,7 @@ PYTHONPATH  /usr/local/bin/python
 BASE_URL http://www.informatics.jax.org/
 
 # full URL to the associated MGI Web Interface installation
-WI_URL          ${BASE_URL}
+FEWI_URL        ${BASE_URL}
 
 # full URL to this MGI Home installation
 MGIHOME_URL     ${BASE_URL}mgihome/
@@ -33,7 +33,7 @@ MGI_SUPPORT     ${MGIHOME_URL}support/mgi_inbox.shtml
 
 MGI_AMA         ${FEWI_URL}vocab/gxd/ma_ontology/
 
-MGI_ACC         ${WI_URL}searches/accession_report.cgi?id=
+MGI_ACC         ${FEWI_URL}accession/
 
 MGI_AMA_FORM    ${FEWI_URL}vocab/gxd/ma_ontology/
 
