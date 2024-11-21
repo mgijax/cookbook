@@ -65,27 +65,10 @@ tar xvfp cookbook.tar
 ###--- Generate the include directory ----------------------------###
 mkdir -p include
 gen_includes
-
-###--- Create include links and update permissions ---------------###
-
-for name in `ls`
-do
-    if [ -d $name ]; then
-        if [ $name != include ]; then
-            if [ $name != CVS ]; then
-                cd $name
-                ln -s ../include/ include
-                chmod 750 *
-                chgrp www *
-                cd $TOP
-            fi
-        fi
-    fi
-done
-
+cd www
+ln -s ../include/ include
 chmod -f 750 *
 chgrp -f www *
-
 
 #
 # Warranty Disclaimer and Copyright Notice

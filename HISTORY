@@ -1,8 +1,9 @@
+TAG: cookbook-6-0-24-2
 TAG: cookbook-6-0-24-1
 DATE: 11/21/2024
 STAFF: lec
-CHANGES: i
-Install: use 'mkdir -p' 
+CHANGES:
+Install: fixes for MGI_Install
 
 TAG: cookbook-6-0-5-1
 DATE: 9/28/2016
