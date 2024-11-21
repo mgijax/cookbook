@@ -63,7 +63,7 @@ ln -s $PYTHON python
 tar xvfp cookbook.tar
 
 ###--- Generate the include directory ----------------------------###
-mkdir include
+mkdir -p include
 gen_includes
 
 ###--- Create include links and update permissions ---------------###
